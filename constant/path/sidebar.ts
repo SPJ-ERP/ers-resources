@@ -43,14 +43,46 @@ export const SIDEBAR_PATHS: SidebarItem[] = [
     port: ALL_MODULE_PORTS.MASTER_DATA,
     type: "dropdown",
     subMenuList: [
-      { name: "Bahan Baku", href: "/master-data/bahan-baku" },
-      { name: "Bahan Pembantu", href: "/master-data/bahan-pembantu" },
-      { name: "Produk", href: "/master-data/products" },
-      { name: "Brand", href: "/master-data/brand" },
-      { name: "Supplier", href: "/master-data/supplier" },
-      { name: "Gudang", href: "/master-data/gudang" },
-      { name: "COA", href: "/master-data/coa" },
-      { name: "User & Role", href: "/master-data/user" },
+      {
+        name: "Bahan Baku",
+        href: "/master-data/bahan-baku",
+        port: ALL_MODULE_PORTS.MASTER_DATA,
+      },
+      {
+        name: "Bahan Pembantu",
+        href: "/master-data/bahan-pembantu",
+        port: ALL_MODULE_PORTS.MASTER_DATA,
+      },
+      {
+        name: "Produk",
+        href: "/master-data/products",
+        port: ALL_MODULE_PORTS.MASTER_DATA,
+      },
+      {
+        name: "Brand",
+        href: "/master-data/brand",
+        port: ALL_MODULE_PORTS.MASTER_DATA,
+      },
+      {
+        name: "Supplier",
+        href: "/master-data/supplier",
+        port: ALL_MODULE_PORTS.MASTER_DATA,
+      },
+      {
+        name: "Gudang",
+        href: "/master-data/gudang",
+        port: ALL_MODULE_PORTS.MASTER_DATA,
+      },
+      {
+        name: "COA",
+        href: "/master-data/coa",
+        port: ALL_MODULE_PORTS.MASTER_DATA,
+      },
+      {
+        name: "User & Role",
+        href: "/master-data/user",
+        port: ALL_MODULE_PORTS.MASTER_DATA,
+      },
     ],
   },
 ];
