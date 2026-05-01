@@ -69,49 +69,27 @@ export const SIDEBAR_PATHS: SidebarItem[] = [
         ]
       },
       {
-        name: "Accounting",
-        icon: "solar:document-text-outline",
+        name: "Departemen",
+        icon: "solar:diagram-down-outline",
         type: "sub-group",
         subMenuList: [
-          { name: "Master General Ledger", href: "/master-data/master-data-general-ledger", port: ALL_MODULE_PORTS.MASTER_DATA },
-          { name: "Master Departemen", href: "/master-data/master-data-department", port: ALL_MODULE_PORTS.MASTER_DATA },
-          // { name: "Master Subsidiary", href: "/master-data/master-subsidiary", port: ALL_MODULE_PORTS.MASTER_DATA },
-          { name: "Master COA", href: "/master-data/master-data-coa", port: ALL_MODULE_PORTS.MASTER_DATA },
-          { name: "Master Kode Jurnal", href: "/master-data/master-data-kode-jurnal", port: ALL_MODULE_PORTS.MASTER_DATA },
+          {
+            name: "Master Departemen",
+            href: "/master-data/departemen",
+            port: ALL_MODULE_PORTS.MASTER_DATA,
+          },
+          {
+            name: "Karyawan",
+            href: "/master-data/karyawan",
+            port: ALL_MODULE_PORTS.MASTER_DATA,
+          },
+          {
+            name: "Job Position",
+            href: "/master-data/job-position",
+            port: ALL_MODULE_PORTS.MASTER_DATA,
+          }
         ]
       },
-      // {
-      //   name: "Departemen",
-      //   icon: "solar:diagram-down-outline",
-      //   type: "sub-group",
-      //   subMenuList: [
-      //     {
-      //       name: "Master Departemen",
-      //       href: "/master-data/master-departemen",
-      //       port: ALL_MODULE_PORTS.MASTER_DATA,
-      //     },
-      //   ]
-      // },
-      // {
-      //   name: "Finance",
-      //   icon: "solar:chart-square-outline",
-      //   type: "sub-group",
-      //   subMenuList: [
-      //     { name: "Master Kode Kas", href: "/master-data/master-kode-kas", port: ALL_MODULE_PORTS.MASTER_DATA },
-      //   ]
-      // },
-      {
-        name: "Partner",
-        icon: "solar:users-group-two-rounded-outline",
-        type: "sub-group",
-        subMenuList: [
-          { name: "Master Kode Area", href: "/master-data/master-data-kode-area", port: ALL_MODULE_PORTS.MASTER_DATA },
-          // { name: "Master Kode Sub Distributor", href: "/master-data/master-kode-sub-distributor", port: ALL_MODULE_PORTS.MASTER_DATA },
-          { name: "Master Distributor/Customer", href: "/master-data/master-data-distributor", port: ALL_MODULE_PORTS.MASTER_DATA },
-          // { name: "Master Customer", href: "/master-data/master-data-customer", port: ALL_MODULE_PORTS.MASTER_DATA },
-          { name: "Master Supplier", href: "/master-data/master-data-supplier", port: ALL_MODULE_PORTS.MASTER_DATA },
-        ]
-      }
     ],
   },
 ];
