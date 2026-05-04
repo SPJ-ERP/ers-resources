@@ -37,6 +37,20 @@ const BREADCRUMB_PATHS: BreadcrumbPathNode[] = [
         path: "/master-data/role",
         name: "Role",
       },
+      {
+        path: "/master-data/department",
+        name: "Department",
+        subMenu: [
+          {
+            path: "/master-data/department/create",
+            name: "Tambah Department",
+          },
+          {
+            path: "/master-data/department/edit",
+            name: "Edit Department",
+          },
+        ],
+      }
     ],
   },
 ]
